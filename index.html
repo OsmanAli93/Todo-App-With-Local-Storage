@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>todoApp</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/ionicons-2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <div class="todo-app__container">
+        <div class="todo-app__wrapper">
+
+            <div class="todo-app__header">
+
+                <div class="todo-app__inner">
+                    <div class="clock-container">
+                        <span id="clock"></span>
+                        <button id="refresh">
+                            <i class="ion-refresh"></i>
+                            <span class="tooltip">Refresh</span>
+                        </button>
+                    </div>
+                    <div class="date-container">
+                        <span id="date"></span>
+                        <span id="greeting"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="todo-app__body">
+                <ul id="todo-list">
+                    Put Something
+                </ul>
+                
+            </div>
+
+            <div class="check-all__container">
+                <input type="checkbox" name="checkAll" id="checkAll">
+                <label for="checkAll" class="check">Check All</label>
+            </div>
+
+            <div class="add-to__do">
+                <i class="ion-plus-circled"></i>
+                <input type="text" id="input" placeholder="Add a to-do">
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
